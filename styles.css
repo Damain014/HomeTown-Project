@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+    text-align: center;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img {
+    width: 100px;
+}
+
+
+
+/*-------------------------------------TOP--------------------------------------*/
+.top{
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-854b430e138567509b4446c84131d0f5-lq");
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.place{
+    width: 180px;
+    margin:158px auto 0px auto;
+    background:#7FBCD2;
+    color: white;
+    padding-top:4px; 
+    border-radius: 10px;
+    font-size: 30px;
+    transition: 0.5s;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.disc{
+    width:390px;
+    color:white;
+    margin:10px auto 130px auto;
+    background: #1D3557;
+    padding:8px 4px 5px 4px;
+    border-radius:15px; 
+    font-family: 'Dancing Script', cursive;
+    transition: 0.5s;
+}
+
+/*-------------------------------------MID--------------------------------------*/
+
+.mid{
+    display: flex;
+    width:700px;
+    height: 380px;
+    justify-content:space-around;
+    background-color:#d5bdaf;
+    margin: auto;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.heading{
+    margin:auto;
+    padding:27px;
+    background-color:#d5bdaf;
+    width: 646.5px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 550;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.Rajwada-Palace{
+    border: none solid #ffcad4;
+    background: #e3d5ca;
+    width: 200px;
+    height: 330px;
+    padding: 20px 20px  0px 20px;
+    border-radius: 15px;
+    margin:0px 10px 0px 10px; 
+    font-weight: 550; 
+    transition: 0.7s;
+}
+
+.Patalpani-Falls{
+    border: none solid #ffcad4;
+    width: 200px;  
+    height: 330px;  
+    background: #e3d5ca;
+    padding: 20px 20px 0px 20px;
+    border-radius: 15px;
+    margin:0px 10px 0px 0px;
+    font-weight: 550;
+    transition: 0.7s;
+}
+
+.Chappan-Dukaan{
+    border: none solid #ffcad4;
+    width: 200px;    
+    height: 330px;
+    background: #e3d5ca;
+    padding: 20px 20px 0px 20px;
+    border-radius: 15px;
+    margin:0px 10px 0px 0px;
+    font-weight: 550;
+    transition: 0.7s;
+}
+
+
+.png1,.png2,.png3{
+    border-radius:100%;
+    border: 5px solid #d5bdaf;
+}
+
+.Place1, .Place2, .Place3{
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    font-weight: 10;
+}
+
+
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: 300;
+}
+/*-------------------------------------Bottom--------------------------------------*/
+
+.btm{
+    width: 700px;
+    height: 300px;
+    background: #e3d5ca;
+    padding-top: auto; 
+    padding:20px 0px;
+     
+}
+
+.card{
+    display: flex;
+    width: 400px;
+    margin: 27px auto;
+    padding: 20px 20px;
+    border: none ;
+    background:#d5bdaf;
+    border-radius: 10px ;
+    border-bottom: 10px solid #895737; 
+    transition: 0.7s;
+}
+
+.img{
+    width:160px;
+
+    border-radius:5px; 
+}
+.right{
+    width:300px;
+    margin-left:20px;
+}
+.guide{
+    color: #895737;
+    margin:5px 0px 0px 0px ;
+    font-size: 35px;
+    font-weight:800; 
+}
+.info{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.name{
+    font-size:20px;
+    margin:-4px 10px 0px 0px;
+    text-align: right;
+    color: #774936;
+    font-weight: 1000;
+}
+
+
+/*-----------------------------hover-------------------------------*/
+
+.place:hover{
+    padding: 10px 10px 10px 10px;
+    color: black;
+    background:white;
+    font-size: 33.5px;
+    
+}
+
+.disc:hover{
+    padding: 10px 10px 10px 10px;
+    color: #16213E;
+    background:#7FBCD2;
+    font-size: 25px;
+}
+
+.card:hover{
+    background-color:#F2D388 ;
+    color: #774936;
+}
+
+.heading:hover{
+    font-size: 40px;
+    color:#774936;
+}
+
+.Rajwada-Palace:hover{
+    color: #F2D388;
+    background-color: #774936;
+}
+
+.Patalpani-Falls:hover{
+    color: #F2D388;
+    background-color: #774936;
+}
+.Chappan-Dukaan:hover{
+    color: #F2D388;
+    background-color: #774936;
+}
